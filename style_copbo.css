@@ -1,0 +1,57 @@
+.avatar{
+    display: block;
+    max-width:1230px;
+    max-height:195px;
+    width: auto;
+    height: auto;
+    border-radius:100%;
+}
+.button{
+    font-family: 20px;
+    background-color: #FF6600;
+    border: 2;
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    margin: 5px 0 5px 0 ;
+    transition-duration: 0.3s;
+    transition-property: color, backgroud-color ;
+    -webkit-box-shadow: -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, -18px -30px 10px -25px rgba(0,0,0,0.14); 
+    box-shadow: -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, -18px -30px 10px -25px rgba(0,0,0,0.14);
+    cursor: pointer;
+}
+.button:hover{
+    color: #FFFF00;
+    background-color: #6E0DD0;
+}
+
+h1{
+    font-family: 'Dongle', monospace;
+    margin: 1px 0 3px 0 ;
+    font-size:60px;
+    font-weight: bold;
+    color: #33FF00;
+}
+p1{
+    font-family: 'Dongle', monospace;
+    margin: 2px 0 2px 0 ;
+    font-size:30px;
+    color: #E6FB04;
+    
+}
+p{
+    font-family: 'Dongle', monospace;
+    margin: 3px 0 8px 0 ;
+    font-style: italic;
+    font-size:24px;
+    color: #00FFFF;
+}
+#bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    
+}
