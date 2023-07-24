@@ -1,0 +1,108 @@
+.avatar{
+    size: 60px;
+    margin: 0;
+    display: block;
+    max-width:1230px;
+    max-height:220px;
+    width: auto;
+    height: auto;
+    border-radius:100%;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+#tich{
+    position: fixed;
+    top: 296px;
+    left: 678px;       
+}     
+#sao{
+    position: fixed;
+    top: 359px;
+    left: 451px;      
+}  
+#diamond{
+    position: fixed;
+    top: 405px;
+    left: 338px;   
+
+}                 
+.h1{
+    margin: 0;
+    margin-left: 200px;
+}
+#reyna1{
+    color: #631111;
+}
+.button{    
+    
+    font-family: 20px;
+    background-color: #572d73;
+    border: 2;  
+    width: 300px;
+    padding: 15px 0 15px 0;
+    border-radius: 100px;
+    margin: 5px 0 5px 0 ;
+    transition-duration: 0.3s;
+    transition-property: color, backgroud-color ;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+#dev{
+    position: fixed;
+    top: 405px;
+    left: 338px;  
+}
+.rotasionbutton{
+    margin: auto;
+    margin-top: 5px;
+}
+.button:hover{
+    color: #FFFF00;
+    background-color: #6E0DD0;
+}
+
+.namebig{
+
+    font-family: 'Dongle', monospace;
+    margin: auto;
+    font-size: 70px;
+    font-weight: bold;
+    color: #80afb4;
+    margin-left: 340px;
+    margin-right: 271px;
+    margin-top: -20px;
+    
+}
+p1{
+    font-family: 'Dongle', monospace;
+    font-style: thin;
+    font-size: 30px;
+    width: 500px;
+    margin-top: 24px;
+    margin-left: 291px;
+    margin-right: 217px;
+    color: #903490;
+}
+p{
+    font-family: 'Dongle', monospace;
+    margin: auto;
+    font-style: italic;
+    font-size: 24px;
+    color: #00FFFF;
+    margin-left: 340px;
+    margin-right: 281px;
+    margin-top: 3px;
+}
+
+#bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    
+}
