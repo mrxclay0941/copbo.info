@@ -12,9 +12,10 @@
     margin-top: 50px;
 }
 #tich{
+    
     position: fixed;
     top: 296px;
-    left: 678px;       
+    left: 1000px;       
 }     
 #sao{
     position: fixed;
@@ -22,6 +23,8 @@
     left: 451px;      
 }  
 #diamond{
+    motion-rotation: auto;
+    display: block;
     position: fixed;
     top: 405px;
     left: 338px;   
