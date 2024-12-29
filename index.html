@@ -16,20 +16,6 @@
     <audio id = "song">
         <source src="mp3\song.mp3">
     </audio>
-    <script>
-        // Lấy lớp phủ
-        const overlay = document.getElementById('overlay');
-        
-        // Lắng nghe sự kiện click vào lớp phủ
-        overlay.addEventListener('click', function() {
-          // Ẩn lớp phủ khi click vào
-          overlay.style.display = 'none';
-        });
-        window.addEventListener('click',() => {
-            document.getElementById("song").play();
-        })
-    </script>
-
     <video autoplay muted loop id="bg-video">
         <source src="mp4\backgroud.mp4" type="video/mp4">
     </video>  
@@ -68,6 +54,6 @@
         <div id="reyna2"><p id="reyna2">2471 Hours play</p></div>
         <div id="reyna3"><p id="reyna3">Valorant, Csgo, Lol Thai, Pubg...</p></div>
     </center>
-   
+   <script src="animesion.js"></script>
 </body>
 </html>
