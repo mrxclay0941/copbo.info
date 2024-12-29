@@ -17,6 +17,14 @@
         <source src="mp3\song.mp3">
     </audio>
     <script>
+        // Lấy lớp phủ
+        const overlay = document.getElementById('overlay');
+        
+        // Lắng nghe sự kiện click vào lớp phủ
+        overlay.addEventListener('click', function() {
+          // Ẩn lớp phủ khi click vào
+          overlay.style.display = 'none';
+        });
         window.addEventListener('click',() => {
             document.getElementById("song").play();
         })
